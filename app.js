@@ -25,9 +25,9 @@ let y = ((2 > 1) && (4 > 1));
 
 let n = 5 > Number.MAX_SAFE_INTEGER || 2 < Number.MAX_SAFE_INTEGER
 
-if (2 == 4) {
+if (y == n) {
     console.log('Es igual.')
 } else {
     console.log('No es igual.')
 }
-
+    console.log(suma)
